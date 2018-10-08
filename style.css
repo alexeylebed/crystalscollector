@@ -1,0 +1,95 @@
+body{
+    font-family: 'Raleway', sans-serif;  
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 200px;
+    background-color: #006CCE;
+}
+
+.progname{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 90px;
+    font-size: 28px;
+    color: white;
+}
+.container{
+    width: 960px;
+    margin:auto;
+    font-size: 24px;
+}
+
+.number{
+    height: 100px;
+    line-height: 100px;
+    width: 100%;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+    margin-top: 20px;
+   
+}
+
+#numberheader{
+    font-size: 45px;
+    margin-right: 20px;
+}
+#randomnumber{
+    margin-top: -8px;
+}
+.winscount , .lossescount , .yourlastgame {
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#winscount , #lossescount , #yourlastgame {
+    margin-left: 20px;
+}
+.statistics{
+    border-bottom: #006CCE 2px solid;
+}
+.statheader{
+    margin-top: 20px;
+    font-size: 30px;
+    color: #607D8B;
+}
+.gems{
+    margin: auto;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+}
+.gem{
+    height: 60px;
+    width: 60px;
+    margin: 0 25px 0 25px;
+}
+.gem:nth-child(1){
+    margin-left:0;
+}
+.gem:active{
+    padding-top: 2px;
+    padding-left: 2px;
+    height: 58px;
+    width: 58px;
+}
+.score{
+    margin-top: 20px;
+    display: flex;
+}
+
+#scorenumber{
+    margin-left: 20px;
+    margin-top: -2px;
+}
+#yourlastgame{
+    color: #607D8B;
+}
